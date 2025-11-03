@@ -120,6 +120,11 @@ main {
     padding: 20px;
 }
 """)
+.truong {
+  font-size: 45px !important;
+  font-weight: 500;
+}
+
 
 # --- Tạo file script.js ---
 with open("static/script.js", "w", encoding="utf-8") as f:
@@ -146,5 +151,6 @@ def contact():
 if __name__ == "__main__":
     print("👉 Mở trình duyệt và vào: http://127.0.0.1:5000")
     app.run(debug=True)
+
 
 
